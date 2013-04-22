@@ -13,5 +13,8 @@ function byClass(context, selector) {
         context = document
     }
 
-    return slice.call(context.getElementsByClassName(selector))
+    // IE8 doesn't support getElementsByClassName, but it supports QSA.
+    return slice.call('getElementsByClassName' in context ?
+        context.getElementsByClassName(selector) :
+        context.querySelectorAll('.' + selector))
 }

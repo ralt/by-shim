@@ -1,20 +1,20 @@
 {
-  "name": "by",
-  "version": "0.2.3",
-  "description": "Select elements by class or id or tag",
+  "name": "by-shim",
+  "version": "0.3.0",
+  "description": "Fork of Raynos/by",
   "keywords": [],
-  "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/Raynos/by.git",
+  "author": "Florian Margaine <florian@margaine.com>",
+  "repository": "git://github.com/Ralt/by-shim.git",
   "main": "index",
-  "homepage": "https://github.com/Raynos/by",
+  "homepage": "https://github.com/Ralt/by-shim",
   "contributors": [
     {
-      "name": "Jake Verbaten"
+      "name": "Florian Margaine"
     }
   ],
   "bugs": {
-    "url": "https://github.com/Raynos/by/issues",
-    "email": "raynos2@gmail.com"
+    "url": "https://github.com/Ralt/by-shim/issues",
+    "email": "florian@margaine.com"
   },
   "dependencies": {
     "global": "~2.0.1"
@@ -28,7 +28,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/Raynos/by/raw/master/LICENSE"
+      "url": "http://github.com/Ralt/by-shim/raw/master/LICENSE"
     }
   ],
   "scripts": {
